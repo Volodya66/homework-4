@@ -521,7 +521,6 @@ img {
   background-color: var(--title-text-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  /* display: flex; */
 }
 .one-footer-container {
   margin-right: 120px;
@@ -566,7 +565,7 @@ img {
 /* div social */
 
 .social-footer {
-  color: var(--color-text-p);
+  color: var(--white-kolor);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -586,7 +585,7 @@ img {
 }
 
 .icon-company-footer {
-  fill: var(--icona-fill);
+  fill: var(--white-kolor);
 }
 
 .icon-footer {
