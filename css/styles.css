@@ -27,7 +27,7 @@
 body {
   background-color: #ffffff;
   color: var(--secondary-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -100,7 +100,7 @@ img {
   margin-right: 76px;
 
   color: var(--iris-web);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -233,7 +233,7 @@ img {
 .hero-button {
   background-color: var(--iris-web);
   color: var(--white-kolor);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -503,7 +503,8 @@ img {
   border-color: var(--hover-focus);
 }
 .company-icon {
-  fill: #8e8f99;
+  /* fill: var(--light-stele); */
+  fill: currentColor;
 }
 
 .company-icon:hover,
@@ -532,7 +533,7 @@ img {
   margin-bottom: 16px;
 
   color: var(--iris-web);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -620,7 +621,7 @@ img {
 
   background-color: var(--color-text-p);
   color: var(--iris-web);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
