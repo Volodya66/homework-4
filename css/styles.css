@@ -18,6 +18,10 @@
   --color-text-p: #f4f4fd;
   /* border #E7E9FC */
   --border-button: #e7e9fc;
+  /* icon color  #f4f4fd */
+  --icona-fill: #f4f4fd;
+  /* color #8e8f99 */
+  --light-stele: #8e8f99;
 }
 
 body {
@@ -191,7 +195,6 @@ img {
   height: 600px;
 
   background-image: linear-gradient(
-      to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
@@ -372,9 +375,6 @@ img {
   flex-basis: calc((100% - 48px) / 3);
 }
 
-/* .list-card .item + .item {
-  margin-left: 24px;
-} */
 /* section4 */
 
 .list-people {
@@ -407,7 +407,7 @@ img {
 }
 
 .data {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-name {
@@ -433,6 +433,15 @@ img {
   margin-bottom: 8px;
 }
 
+.icona {
+  fill: var(--icona-fill);
+}
+
+.lisct-icon {
+  width: 40px;
+  height: 40px;
+}
+
 .link-icon {
   display: flex;
   justify-content: center;
@@ -451,18 +460,18 @@ img {
 
 .social-list {
   display: flex;
-  column-gap: 24px;
-}
-.social-icon {
+  gap: 24px;
+  justify-content: center;
 }
 
 /* section 5 */
 
 .customers-name {
+  color: var(--title-text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
@@ -473,18 +482,25 @@ img {
   gap: 24px;
 }
 
+.company-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
 .company-icon-link {
   display: flex;
   width: 168px;
-  height: 88px;
+  /* height: 88px; */
+  height: 100%;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--light-stele);
   border-radius: 4px;
 }
 .company-icon-link:hover,
 .company-icon-link:focus {
-  border-color: #404bbf;
+  border-color: var(--hover-focus);
 }
 .company-icon {
   fill: #8e8f99;
@@ -492,7 +508,7 @@ img {
 
 .company-icon:hover,
 .company-icon:focus {
-  fill: #404bbf;
+  fill: var(--hover-focus);
 }
 
 /*---- FOOTER---- */
@@ -508,6 +524,7 @@ img {
 .footer-container {
   gap: 120px;
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
