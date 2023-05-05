@@ -442,6 +442,10 @@ img {
   height: 40px;
 }
 
+.social-icon {
+  fill: var(--icona-fill);
+}
+
 .link-icon {
   display: flex;
   justify-content: center;
@@ -585,7 +589,7 @@ img {
 }
 
 .icon-company-footer {
-  fill: var(--white-kolor);
+  fill: var(--icona-fill);
 }
 
 .icon-footer {
